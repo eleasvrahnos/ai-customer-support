@@ -9,7 +9,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hi! I'm here to help you better understand your taste in music. Let me know some songs you enjoy listening to",
+      content: "Hi! I'm here to help you better understand your taste in music. Let me know some songs you enjoy listening to!",
     },
   ]);
   const [message, setMessage] = useState('');
@@ -127,7 +127,7 @@ export default function Home() {
                     : '#007AFF'
                 }
                 color="white"
-                borderRadius={16}
+                borderRadius={8}
                 p={2}
                 maxWidth="75%"
               >
